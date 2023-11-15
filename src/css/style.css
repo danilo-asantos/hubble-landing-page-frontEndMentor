@@ -1,0 +1,22 @@
+/* Fontes do cabeçalho */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+/* Fontes do corpo */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body{
+    background-image: url(../../images/bg-desktop.svg);
+    background-color: rgb(103, 75, 177);
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.cabecalho img{
+    margin: 55px;
+}
